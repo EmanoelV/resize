@@ -1,2 +1,4 @@
-# resize
-CLI pessoal que torna todos os tamanhos absolutos de uma aplicação flutter em relativos(percentualmente)
+A simple command-line application.
+
+Created from templates made available by Stagehand under a BSD-style
+[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
