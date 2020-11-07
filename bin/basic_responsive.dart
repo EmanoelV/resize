@@ -37,7 +37,8 @@ class BasicResponsive {
       'top',
       'bottom',
       'vertical',
-      'maxHeight'
+      'maxHeight',
+      'radius'
     ];
     var width = <String>['width', 'left', 'right', 'horizontal', 'maxWidth'];
 
