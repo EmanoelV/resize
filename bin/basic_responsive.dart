@@ -36,6 +36,8 @@ class BasicResponsive {
       'fontSize',
       'top',
       'bottom',
+      'start',
+      'end',
       'vertical',
       'maxHeight',
       'radius'
