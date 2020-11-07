@@ -52,7 +52,7 @@ class BasicResponsive {
 
   void _changeForDynamic(
       String parameter, /*double sizeScreen, */ String sizeType) {
-    var rx = RegExp(r'(' + parameter + r': )(\d+)?(\d+.?(\d+)?)');
+    var rx = RegExp(r'(' + parameter + r': )(\d+(.\d+)?)');
     var matchs = rx.allMatches(_txt).toList();
     matchs.forEach((exp) {
       //var constProporcion = (double.parse(exp.group(2)) / sizeScreen).toStringAsPrecision(3);
